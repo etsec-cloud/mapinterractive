@@ -3,7 +3,13 @@
     float: left;
 }
 
-.map__image path {
+.map__image path  {
+    fill: #415F77;
+    stroke: #769cb5;
+    stroke-width: 1px;
+    transition: fill .3s;
+}
+.map__image polygon  {
     fill: #415F77;
     stroke: #769cb5;
     stroke-width: 1px;
@@ -23,5 +29,9 @@
 }
 
 .map__image path:hover{
+    fill: rgb(167, 168, 168);
+}
+
+.map__image polygon:hover{
     fill: rgb(167, 168, 168);
 }
